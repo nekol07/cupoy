@@ -20,4 +20,4 @@ if __name__ == "__main__":
 	uPa_50 = get_upa(50)
 	print(f"30 分貝聲壓：{uPa_30}")
 	print(f"50 分貝聲壓：{uPa_50}")
-	print(f"相差倍數 : {uPa_30/uPa_50}")
+	print(f"相差倍數 : {uPa_50/uPa_30}")
